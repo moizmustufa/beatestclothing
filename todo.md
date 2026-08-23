@@ -1,0 +1,62 @@
+# Project TODO
+
+- [x] Establish the original BEATEST visual system: bold typographic wordmark, editorial type pairing, black/off-white/charcoal palette, and original brand copy.
+- [x] Define reusable product, cart, wishlist, checkout, order, and customer data structures with production-ready database schema.
+- [x] Generate and organize original, consistent streetwear campaign and product imagery outside the application source tree.
+- [x] Build a mobile-first homepage with an announcement ticker, minimal sticky white header, full-bleed portrait hero carousel, restrained circular carousel controls, and fixed WhatsApp action.
+- [x] Build all homepage editorial sections: collections, promotional campaign, new arrivals, editorial campaign, best sellers, brand story, statement panel, social gallery, newsletter, and premium footer.
+- [x] Implement an animated full-screen responsive navigation with links to collections and informational pages.
+- [x] Implement shop, collection, and search experiences with product search, filters, sorting, responsive product grids, loading states, empty states, and error states.
+- [x] Implement product detail pages with image gallery, color and size variants, size guide, quantity controls, related products, and Add to Bag / Buy Now actions.
+- [x] Implement locally persistent wishlist functionality and dedicated wishlist page.
+- [x] Implement editable cart, shipping calculation, and empty-cart experience.
+- [x] Implement validated Pakistani checkout with Cash on Delivery and Bank Transfer, order submission, and order-confirmation page.
+- [x] Implement automatic customer order confirmation and owner alert after successful order placement.
+- [x] Add semantic metadata, descriptive image alt text, clean routes, and page-specific SEO.
+- [x] Write and run unit tests for product discovery, cart/order calculations, and order notification workflow.
+- [x] Verify all requested customer journeys, desktop and mobile layouts (360px through 1440px), accessibility, and browser console health.
+- [x] Implement a working multi-slide hero carousel with active indicators and responsive image treatment.
+- [x] Add smooth entrance and exit motion for the responsive full-screen navigation drawer.
+- [x] Show live product results and a no-results state within the global search overlay.
+- [x] Expand the saved order confirmation with item details and delivery information.
+- [x] Integrate a supported customer-facing confirmation delivery channel, while retaining the in-app confirmation fallback.
+- [x] Add database structures for future-managed products, inventory variants, and persisted customer wishlist data.
+- [x] Verify route-aware titles and descriptions for homepage, shop, product, bag, checkout, wishlist, and about routes.
+- [x] Add focused automated tests for catalog discovery, cart line operations, and order calculation/confirmation composition.
+- [x] Verify the completed end-to-end homepage, discovery, product, cart, checkout, order confirmation, mobile menu, and WhatsApp journeys.
+- [x] Verify responsive behavior at 360px, 375px, 414px, 768px, 1024px, and 1440px without overflows or broken controls.
+- [x] Add automated coverage for cart line merging, quantity updates, and removal.
+- [x] Exercise and document the full customer journey through order confirmation, including mobile menu and WhatsApp link behavior.
+- [x] Verify the core storefront pages at each requested responsive breakpoint and record the outcome.
+- [x] Verify and document a simulated end-to-end customer purchase journey, mobile navigation path, and WhatsApp contact destination.
+- [x] Record the responsive verification results for all core storefront pages at every requested breakpoint.
+- [x] Add an owner-only admin route with access-denied handling for non-admin users.
+- [x] Add protected APIs and database helpers for dashboard metrics, products, inventory variants, orders, and customer records.
+- [x] Build an admin dashboard overview with product, inventory, order, and customer management views.
+- [x] Add forms to create and edit products and inventory variants, plus order-status management.
+- [x] Write and run tests for admin authorization and commerce management operations.
+- [x] Verify the admin dashboard interface and save the updated project checkpoint.
+- [x] Add focused tests for dashboard metric calculation, customer aggregation, and admin management input validation.
+- [x] Re-verify the authenticated owner dashboard and save the completed admin update checkpoint.
+- [x] Audit Node, build, static asset, environment-variable, and routing requirements for Vercel deployment.
+- [x] Add Vercel-safe deployment configuration and documentation without disrupting the managed deployment.
+- [x] Run production type, test, and build validation; address any deployment blockers found.
+- [x] Create and deliver a complete Vercel-ready project ZIP archive, excluding only reproducible dependencies and transient build artifacts.
+- [x] Create a fresh Vercel-ready ZIP archive after the configuration changes.
+- [x] Verify that the fresh archive includes the Vercel configuration and deployment guide before delivery.
+- [x] Remove the unsupported Vercel function runtime version that caused the reported build failure.
+- [x] Validate the corrected Vercel configuration and production build.
+- [x] Create and deliver a corrected Vercel deployment ZIP archive with redeployment instructions.
+- [x] Provide manual Vercel project-setting steps to replace the failing forced install command and redeploy.
+- [x] Identify and explain how to clear the persistent Vercel `pnpm install --frozen-lockfile` command.
+- [x] Provide the final manual source-file and Vercel-setting checks needed before a clean redeploy.
+- [x] Remove the obsolete missing Wouter patch declaration that blocks Vercel dependency installation.
+- [x] Validate package installation and production build after the patch-configuration repair.
+- [x] Provide the exact GitHub commit and Vercel redeployment steps for the missing-patch fix.
+- [x] Provide the missing Wouter patch file contents required by the existing GitHub lockfile.
+- [x] Guide the user to create the patch file, commit it, and redeploy without cache.
+- [ ] Provide the final stale-lockfile deletion and clean Vercel reinstall steps.
+- [ ] Remove all obsolete patch files and package-manager patch metadata from the deployable source.
+- [ ] Regenerate a clean lockfile and verify a fresh install exactly as Vercel will perform it.
+- [ ] Verify the production type check, tests, and build from the clean dependency state.
+- [ ] Create and deliver one final Vercel-ready ZIP archive with no stale patch dependency references.

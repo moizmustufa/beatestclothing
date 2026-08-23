@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://2DsFu77zshsM8o7.0f016e281ea6:u0bbDZ0NF0k13yS8sQZh@gateway04.us-east-1.prod.aws.tidbcloud.com:4000/nQwE9i7MuzZi2xtwLgu8Fz?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/nQwE9i7MuzZi2xtwLgu8Fz.git",
+    "expiration": "2026-08-23T21:26:30.996Z",
+    "token": "art_v2_x_860bcae32986880271c1933ac7619ce61e287d81?expires=1787520390",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "beatest-store",
+  "path": "/home/ubuntu/beatest-store",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "MFnDGvWNBDRvGSTza4Hrx9",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "Qg2rBoqQPuC6R95vcaq2Xe",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Nextweb Studio",
+    "OWNER_OPEN_ID": "3LNSADoNbLBqDheDeeR6En",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "bd785586-2e11-41d2-9f63-1837930f3186",
+    "VITE_APP_ID": "nQwE9i7MuzZi2xtwLgu8Fz",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "BEATEST — Premium Modern Streetwear",
+    "VITE_FRONTEND_FORGE_API_KEY": "Bt7vbnfgu3cZsfmJQA6DkC",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
